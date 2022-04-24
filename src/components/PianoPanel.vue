@@ -2,6 +2,7 @@
   <div class="container">
     <div class="piano">
       <div
+        @click="playQuote(k.midiCode)"
         class="piano-key"
         :style="{
           left: k.left + 'px',
@@ -123,10 +124,6 @@ export default {
           }
         }
       };
-    },
-    clickKey(scale, quoteIndex) {
-      const quote = scale * 12 + quoteIndex; //转换成midi音符代码
-      this.playQuote(quote);
     },
     playQuote(quote) {
       this.quoteCode = quote;
