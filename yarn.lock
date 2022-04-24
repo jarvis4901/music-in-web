@@ -5960,6 +5960,11 @@ jsprim@^1.2.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
+keyboardjs@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.npmmirror.com/keyboardjs/-/keyboardjs-2.6.4.tgz#28dccd9787c8f37e7c017df2f87294ca21143436"
+  integrity sha512-xDiNwiwH3KUqap++RFJiLAXzbvRB5Yw08xliuceOgLhM1o7g1puKKR9vWy6wp9H/Bi4VP0+SQMpiWXMWWmR6rA==
+
 killable@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
